@@ -4,14 +4,14 @@ output: github_document
 
 # Assigning numerical values
 ```{r}
-dur_hablo_stressed <-0.616045
-dur_hablo_unstressed <- 0.479
-dur_o_stressed <-0.239573
-dur_o_unstressed <- 0.0147061
-int_o_stressed <- 66.131392
-int_o_unstressed <- 68.381517
-f0_o_stressed <-1
-f0_o_unstressed <-2
+dur_hablo_stressed <-616.045
+dur_hablo_unstressed <- 479.146
+dur_o_stressed <-239.573
+dur_o_unstressed <- 147.061
+int_o_stressed <- 66.1266
+int_o_unstressed <- 68.4125
+f0_o_stressed <-196.5217
+f0_o_unstressed <-308.5264
 ```
 
 # Doing Calculations
@@ -28,4 +28,5 @@ f0_o_stressed-f0_o_unstressed
 
 # Observations
 
-I thought it was interesting that my production of the stressed 'hablo' was so much longer than the unstressed one. I ran into some issues when figuring out the f0.
+I thought it was very interesting that the duration of the unstressed 'o', `r dur_o_unstressed`, was almost half of that of the stressed 'o', `r dur_o_stressed`. The intensity for the two o's seemed to be pretty similar (`r int_o_stressed` versus `r int_o_unstressed`).
+Lasltly, the duration of the stressed 'hablo', `r dur_hablo_stressed`, was longer than that of the unstressed 'hablo', `r dur_hablo_unstressed`. This actually made me wonder if perhaps I produced the stressed word more carefully than the unstressed one. (But I re-recorded the sound and it was quite similar.)
